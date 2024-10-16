@@ -12,7 +12,7 @@ Each object has one responsibility.
 # Open Closed Principle
 Classes should be open for extension, but closed for modification.
 # Liskov Substitution Principle
-It should be possible to substitute any of its subtypes (heir class) instead of the base (parent) type (class), while the program's operation should not change.
+Child class should be have same functionality (i.e method(s)) as parent class.
 # Interface Segregation Principle
 This principle means that you should not force a client (class) to implement an interface that is not related to it.
 # Dependency Inversion Principle
